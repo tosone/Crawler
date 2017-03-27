@@ -73,8 +73,8 @@ if __name__ == "__main__":
     checkDatabaseTable()
 
     while True:
-        auth = oss2.Auth(os.environ.get('AccessKeyId'), os.environ.get('AccessKeySecret'))
-        bucket = oss2.Bucket(auth, os.environ.get('OSS_Endpoint'), os.environ.get('OSS_Bucket'))
+        auth = oss2.Auth(os.environ.get("AccessKeyId"), os.environ.get("AccessKeySecret"))
+        bucket = oss2.Bucket(auth, os.environ.get("OSS_Endpoint"), "kuwo-moxuanriji")
         res = requests.get(URL, headers=randomHeader())
         res.encoding = "UTF-8"
         total = res.json().get("total")

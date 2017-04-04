@@ -1,8 +1,10 @@
-from config import Config
-from os import environ
 import logging
-import requests
 import time
+from os import environ
+
+import requests
+
+from config import Config
 
 
 class Run(Config):
@@ -27,13 +29,11 @@ class Run(Config):
             try:
                 res = requests.get(self.exploitUrl, headers=self.Header(self.protocal, self.host))
                 res.encoding = "UTF-8"
-                print(self.Header(self.protocal, self.host))
                 response = res.json()
                 self.total = response['total']
                 for music in response['musiclist']:
                     logging.info(music['name'])
                     self.MGO[self.collection].find_one_and_replace({self.key: music['musicrid']}, music, upsert=True)
-                    print(self.getUrl(music['musicrid']))
                     if not self.Bucket.object_exists(music['musicrid'] + ".mp3"):
                         self.Bucket.put_object(music['musicrid'] + ".mp3", requests.get(self.getUrl(music['musicrid'])))
                     time.sleep(self.RandomLimit())

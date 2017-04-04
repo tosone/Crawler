@@ -1,0 +1,149 @@
+{
+    "songs": [
+        {
+            "name": "双刀+双截棍+龙拳(Live)",
+            "id": 185979,
+            "position": 17,
+            "alias": [],
+            "status": 0,
+            "fee": 8,
+            "copyrightId": 1007,
+            "disc": "2",
+            "no": 4,
+            "artists": [
+                {
+                    "name": "周杰伦",
+                    "id": 6452,
+                    "picId": 0,
+                    "img1v1Id": 0,
+                    "briefDesc": "",
+                    "picUrl": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "img1v1Url": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "albumSize": 0,
+                    "alias": [],
+                    "trans": "",
+                    "musicSize": 0
+                }
+            ],
+            "album": {
+                "name": "2004无与伦比演唱会",
+                "id": 18900,
+                "type": "专辑",
+                "size": 25,
+                "picId": 114349209289616,
+                "blurPicUrl": "http://p4.music.126.net/_Nx3XhOMw7Mjq8xul5aHpA==/114349209289616.jpg",
+                "companyId": 0,
+                "pic": 114349209289616,
+                "picUrl": "http://p3.music.126.net/_Nx3XhOMw7Mjq8xul5aHpA==/114349209289616.jpg",
+                "publishTime": 1106236800000,
+                "description": "",
+                "tags": "",
+                "company": "阿尔发音乐",
+                "briefDesc": "",
+                "artist": {
+                    "name": "",
+                    "id": 0,
+                    "picId": 0,
+                    "img1v1Id": 0,
+                    "briefDesc": "",
+                    "picUrl": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "img1v1Url": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                    "albumSize": 0,
+                    "alias": [],
+                    "trans": "",
+                    "musicSize": 0
+                },
+                "songs": [],
+                "alias": [],
+                "status": -1,
+                "copyrightId": 1007,
+                "commentThreadId": "R_AL_3_18900",
+                "artists": [
+                    {
+                        "name": "周杰伦",
+                        "id": 6452,
+                        "picId": 0,
+                        "img1v1Id": 0,
+                        "briefDesc": "",
+                        "picUrl": "http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1Url": "http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "albumSize": 0,
+                        "alias": [],
+                        "trans": "",
+                        "musicSize": 0
+                    }
+                ],
+                "subType": "现场版"
+            },
+            "starred": false,
+            "popularity": 100.0,
+            "score": 100,
+            "starredNum": 0,
+            "duration": 420000,
+            "playedNum": 0,
+            "dayPlays": 0,
+            "hearTime": 0,
+            "ringtone": "",
+            "crbt": null,
+            "audition": null,
+            "copyFrom": "",
+            "commentThreadId": "R_SO_4_185979",
+            "rtUrl": null,
+            "ftype": 0,
+            "rtUrls": [],
+            "copyright": 1,
+            "hMusic": {
+                "name": null,
+                "id": 98784098,
+                "size": 16824202,
+                "extension": "mp3",
+                "sr": 44100,
+                "dfsId": 7938473954003684,
+                "bitrate": 320000,
+                "playTime": 420000,
+                "volumeDelta": -3.04
+            },
+            "mMusic": {
+                "name": null,
+                "id": 98784099,
+                "size": 8412252,
+                "extension": "mp3",
+                "sr": 44100,
+                "dfsId": 7986852465625267,
+                "bitrate": 160000,
+                "playTime": 420000,
+                "volumeDelta": -2.62
+            },
+            "lMusic": {
+                "name": null,
+                "id": 98784100,
+                "size": 5047471,
+                "extension": "mp3",
+                "sr": 44100,
+                "dfsId": 7886796907171758,
+                "bitrate": 96000,
+                "playTime": 420000,
+                "volumeDelta": -2.69
+            },
+            "bMusic": {
+                "name": null,
+                "id": 98784100,
+                "size": 5047471,
+                "extension": "mp3",
+                "sr": 44100,
+                "dfsId": 7886796907171758,
+                "bitrate": 96000,
+                "playTime": 420000,
+                "volumeDelta": -2.69
+            },
+            "mvid": 5359650,
+            "mp3Url": "http://m2.music.126.net/Bo-XGo_DI5L3ArqpL-v5cA==/7886796907171758.mp3",
+            "rtype": 0,
+            "rurl": null
+        }
+    ],
+    "equalizers": {
+        "185979": "pop"
+    },
+    "code": 200
+}

@@ -3,11 +3,12 @@ import math
 import re
 import time
 import uuid
-from config import Config
 from datetime import datetime
 from os import path
 
 import requests
+
+from config import Config
 
 
 class Run(Config):
